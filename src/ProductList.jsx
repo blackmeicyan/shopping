@@ -16,25 +16,25 @@ function ProductList({ onHomeClick }) {
             plants: [
                 {
                     name: "AMD Ryzen 7 9800X3D",
-                    image: "./img/CPU.jpg",
+                    image: "https://raw.githubusercontent.com/blackmeicyan/shopping/refs/heads/main/public/img/CPU.jpg",
                     description: "AMD Ryzen 7 9800X3D.",
-                    cost: "$90"
+                    cost: "$150"
                 },
                 {
                     name: "AMD Ryzen 9 9950X",
-                    image: "./img/CPU.jpg",
+                    image: "https://raw.githubusercontent.com/blackmeicyan/shopping/refs/heads/main/public/img/CPU.jpg",
                     description: "AMD Ryzen 9 9950X",
-                    cost: "$999"
+                    cost: "$120"
                 },
                 {
                     name:  "Intel Core Ultra 7",
-                    image: "../img/CPU.jpg",
+                    image: "https://raw.githubusercontent.com/blackmeicyan/shopping/refs/heads/main/public/img/CPU.jpg",
                     description:  "Intel Core Ultra 7",
                     cost: "$180"
                 },
                 {
                     name:  "Intel Core Ultra 9",
-                    image: "/img/cpu.jpg",
+                    image: "https://raw.githubusercontent.com/blackmeicyan/shopping/refs/heads/main/public/img/CPU.jpg",
                     description:  "Intel Core Ultra 9",
                     cost: "$200"
                 }
@@ -45,16 +45,23 @@ function ProductList({ onHomeClick }) {
             plants: [
                 {
                     name: "ASUS ROG",
-                    image: "/img/motherboard.jpg",
+                    image: "https://raw.githubusercontent.com/blackmeicyan/shopping/refs/heads/main/public/img/motherboard.jpg",
                     description: "ASUS ROG",
                     cost: "$200"
                 },
                 {
-                    name: "ASUS ROG",
-                    image: "/img/motherboard.jpg",
-                    description: "ASUS ROG",
+                    name: "MSI",
+                    image: "https://raw.githubusercontent.com/blackmeicyan/shopping/refs/heads/main/public/img/motherboard.jpg",
+                    description: "MSI desc",
+                    cost: "$220"
+                },
+                {
+                    name: "Gigabyte",
+                    image: "https://raw.githubusercontent.com/blackmeicyan/shopping/refs/heads/main/public/img/motherboard.jpg",
+                    description: "Gigabyte",
                     cost: "$250"
                 }
+
             ]
         },
         {
@@ -62,19 +69,19 @@ function ProductList({ onHomeClick }) {
             plants: [
                 {
                     name: "32GB DDR5",
-                    image: "/img/RAM.jpg",
+                    image: "https://raw.githubusercontent.com/blackmeicyan/shopping/refs/heads/main/public/img/RAM.jpg",
                     description: "32GB DDR5",
                     cost: "$120"
                 },
                 {
                     name: "64GB DDR5",
-                    image: "/img/RAM.jpg",
+                    image: "https://raw.githubusercontent.com/blackmeicyan/shopping/refs/heads/main/public/img/RAM.jpg",
                     description: "64GB DDR5",
                     cost: "$200"
                 },
                 {
                     name: "96GB DDR5",
-                    image: "/img/RAM.jpg",
+                    image: "https://raw.githubusercontent.com/blackmeicyan/shopping/refs/heads/main/public/img/RAM.jpg",
                     description: "96GB DDR5",
                     cost: "$250"
                 }
@@ -85,19 +92,19 @@ function ProductList({ onHomeClick }) {
             plants: [
                 {
                     name: "1TB NVMe SSD",
-                    image: "/img/Storage.jpg",
+                    image: "https://raw.githubusercontent.com/blackmeicyan/shopping/refs/heads/main/public/img/Storage.jpg",
                     description: "1TB NVMe SSD",
                     cost: "$200"
                 },
                 {
                     name: "2TB NVMe SSD",
-                    image: "/img/Storage.jpg",
+                    image: "https://raw.githubusercontent.com/blackmeicyan/shopping/refs/heads/main/public/img/Storage.jpg",
                     description: "2TB NVMe SSD",
                     cost: "$280"
                 },
                 {
                     name: "4TB NVMe SSD",
-                    image: "/img/Storage.jpg",
+                    image: "https://raw.githubusercontent.com/blackmeicyan/shopping/refs/heads/main/public/img/Storage.jpg",
                     description: "4TB NVMe SSD",
                     cost: "$320"
                 }
@@ -108,19 +115,19 @@ function ProductList({ onHomeClick }) {
             plants: [
                 {
                     name: "Thermalright AXP90-X47",
-                    image: "/img/Cooling.jpg",
+                    image: "https://raw.githubusercontent.com/blackmeicyan/shopping/refs/heads/main/public/img/Cooling.jpg",
                     description: "Description",
                     cost: "$200"
                 },
                 {
                     name: "Thermalright Phantom Spirit 120",
-                    image: "/img/Cooling.jpg",
+                    image: "https://raw.githubusercontent.com/blackmeicyan/shopping/refs/heads/main/public/img/Cooling.jpg",
                     description: "Description",
                     cost: "$280"
                 },
                 {
                     name:  "Thermalright Peerless Assassin 120",
-                    image: "/img/Cooling.jpg",
+                    image: "https://raw.githubusercontent.com/blackmeicyan/shopping/refs/heads/main/public/img/Cooling.jpg",
                     description: "Description",
                     cost: "$320"
                 }
@@ -131,19 +138,19 @@ function ProductList({ onHomeClick }) {
             plants: [
                 {
                     name:  "Fractal Terra",
-                    image: "/img/Case.jpg",
+                    image: "https://raw.githubusercontent.com/blackmeicyan/shopping/refs/heads/main/public/img/Case.jpg",
                     description: "Description",
                     cost: "$200"
                 },
                 {
                     name: "Cooler Master NR200P",
-                    image: "/img/Case.jpg",
+                    image: "https://raw.githubusercontent.com/blackmeicyan/shopping/refs/heads/main/public/img/Case.jpg",
                     description: "Description",
                     cost: "$280"
                 },
                 {
                     name: "Lian Li A4-H2O",
-                    image: "/img/Case.jpg",
+                    image: "https://raw.githubusercontent.com/blackmeicyan/shopping/refs/heads/main/public/img/Case.jpg",
                     description: "Description",
                     cost: "$320"
                 }
@@ -154,19 +161,19 @@ function ProductList({ onHomeClick }) {
             plants: [
                 {
                     name:  "RTX 5060",
-                    image: "/img/GPU.jpg",
+                    image: "https://raw.githubusercontent.com/blackmeicyan/shopping/refs/heads/main/public/img/GPU.jpg",
                     description: "Description",
                     cost: "$200"
                 },
                 {
                     name: "RTX 5070 Ti",
-                    image: "/img/GPU.jpg",
+                    image: "https://raw.githubusercontent.com/blackmeicyan/shopping/refs/heads/main/public/img/GPU.jpg",
                     description: "Description",
                     cost: "$280"
                 },
                 {
                     name: "RTX 5080",
-                    image: "/img/GPU.jpg",
+                    image: "https://raw.githubusercontent.com/blackmeicyan/shopping/refs/heads/main/public/img/GPU.jpg",
                     description: "Description",
                     cost: "$320"
                 }
@@ -232,7 +239,7 @@ function ProductList({ onHomeClick }) {
             <div className="navbar" style={styleObj}>
                 <div className="tag">
                     <div className="luxury">
-                        <img src="/img/logo.jpg" />
+                        <img src="https://raw.githubusercontent.com/blackmeicyan/shopping/refs/heads/main/public/img/logo.jpg" />
                         <a href="/" onClick={(e) => handleHomeClick(e)}>
                             <div>
                                 <h3 style={{ color: 'white' }}>ITX Expert</h3>
