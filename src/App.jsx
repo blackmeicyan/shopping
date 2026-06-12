@@ -22,9 +22,9 @@ function App() {
         <div className="background-image"></div>
         <div className="content">
          <div className="landing_content">
-         <h1>Welcome To Natural House</h1>
+         <h1>歡迎來到 迷你電腦專家 ITX Expert</h1>
           <div className="divider"></div>
-          <p>Where Nature is Home</p>
+          <p>Where Expert is Home</p>
          
           <button className="get-started-button" onClick={handleGetStartedClick}>
            Get Started
