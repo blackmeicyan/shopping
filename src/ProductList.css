@@ -74,10 +74,6 @@ body {
     gap: 20px;
 }
 
-.center {
-    text-align:center
-}
-
 /* Pseudo-classes - Hover effect on product button */
 .product-card:hover {
     transform: scale(1.05);
@@ -214,22 +210,9 @@ body {
     transition-duration: 0.4s;
     cursor: pointer;
   }
-
-  .product-button:disabled {
-    background-color: grey;
-  }
   
   .product-button:hover {
     background-color: #45a049;
-  }
-
-  .total {
-    position: absolute;
-    top: 31px;
-    right: 36px; 
-    color: white;
-    padding: 5px;
-    font-size: 23px;
   }
   
   .product-button.added-to-cart {
