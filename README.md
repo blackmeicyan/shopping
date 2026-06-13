@@ -1,4 +1,1 @@
-README
-https://blackmeicyan.github.io/shopping/
-
-
+# coding-project-template
